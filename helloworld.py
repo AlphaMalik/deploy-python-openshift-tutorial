@@ -22,7 +22,7 @@ def main():
     AUDIT_ENABLED_IDMGMT = parser['default']['AUDIT_ENABLED_IDMGMT']
     AUDIT_ENABLED_IDPROVIDER = parser['default']['AUDIT_ENABLED_IDPROVIDER']
     
-    return_message = 'Hello, world! \n AUDIT_ENABLED_IDMGMT={0}  AUDIT_ENABLED_IDPROVIDER={1}'
+    return_message = 'Config Values: \n AUDIT_ENABLED_IDMGMT={0}  AUDIT_ENABLED_IDPROVIDER={1}'
     return return_message.format(AUDIT_ENABLED_IDMGMT,AUDIT_ENABLED_IDPROVIDER)
         
 if __name__ == '__main__':  # Script executed directly?
